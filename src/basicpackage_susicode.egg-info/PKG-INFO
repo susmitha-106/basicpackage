@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: basicpackage_susicode
+Version: 0.0.1
+Summary: A small example package
+Author-email: Susmitha <susmitha0978@gmail.com>
+Project-URL: Homepage, https://github.com/susmitha-106/basicpackage
+Project-URL: Issues, https://github.com/susmitha-106/basicpackage/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+basicpackage
+
+
+The basicpackage is a simple testing example to understand the basics of developing your first Python package.
+
+<!-- Install & Usage
+You can install basicpackageas follows:
+
+pip install --index-url https://test.pypi.org/simple/ --no-deps basicpackage -->
+
+
+
+Try to have fun with basicpackage:
+
+from multiply.by_three import multiply_by_three
+from divide.by_three import divide_by_three
+
+multiply_by_three(9)
+divide_by_three(21)
+

@@ -1,3 +1,22 @@
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "basicpackage_susicode"
+version = "0.0.1"
+authors = [
+  { name="Susmitha", email="susmitha0978@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/susmitha-106/basicpackage"
+Issues = "https://github.com/susmitha-106/basicpackage/issues"

@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+src/basicpackage_susicode.egg-info/PKG-INFO
+src/basicpackage_susicode.egg-info/SOURCES.txt
+src/basicpackage_susicode.egg-info/dependency_links.txt
+src/basicpackage_susicode.egg-info/top_level.txt
+src/divide/__init__.py
+src/divide/by_three.py
+src/multiply/__init__.py
+src/multiply/by_three.py
+tests/test_divide_by_three.py
+tests/test_multiply_by_three.py
